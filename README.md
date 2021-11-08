@@ -1,6 +1,5 @@
-# MovingtoNYC
-<h1 align="center">MovingtoNYC</h1>
-<h3 align="center">K-Means Clustering Project</h1>
+<h1 align="center">Moving to New York City</h1>
+
 
 <h2>INTRODUCTION</h1>
 
