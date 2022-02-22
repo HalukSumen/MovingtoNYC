@@ -104,7 +104,7 @@ In the end I am expecting to see, well clustered restaurants and observe meaning
 <h2>FUTURE WORKS</h1>
 
 <p align="center">
-  <img width="700" height="350" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/future.png">
+  <img width="800" height="400" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/future.png">
 </p>
 <p align="center">
    <b>Possible Future Diagram</b>
