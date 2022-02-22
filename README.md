@@ -46,7 +46,7 @@ K-Means is creating clusters but not deciding how many clusters will create. So,
 In the end I am expecting to see, well clustered restaurants and observe meaningful results over the New York City neighborhoods.
 
 <p align="center">
-  <img width="800" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/maincluster.png">
+  <img width="850" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/maincluster.png">
 </p>
 <p align="center">
    <b>Main Cluster</b>
@@ -101,7 +101,14 @@ In the end I am expecting to see, well clustered restaurants and observe meaning
    <b>Cluster 6</b>
 </p>
 
+<h2>FUTURE WORKS</h1>
 
+<p align="center">
+  <img width="600" height="300" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/future.png">
+</p>
+<p align="center">
+   <b>Possible Future Diagram</b>
+</p>
 
 <h2>LINKS</h1>
 
