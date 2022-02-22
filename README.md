@@ -11,6 +11,11 @@ Moving another country is really hard thing for everyone, moreover, finding an a
 <h2>DATA</h1>
 I am going to use two different data sources, the first one is from New York University Spatial Data Repository which includes name of the boroughs, neighborhoods and latitudes and longitudes of neighborhoods. Data is public and can be accessible by anyone who wants [1]. The Second data source is Foursquare API, for collecting data you must register their system, however there are limits for both downloading data and the type of available data can reach. I choosed free version and can make 100.000 API calls daily. If you exceed that limit the call will not work until next day [2]. My two data sources are connected. My two data sources are connected and interrelated. Without NYU part, I cannot find which venue in which neighborhood and borough, without Foursquare part I cannot reach restaurants. NYU part contains 5 Boroughs and 306 Neighborhoods names and geolocations. Foursquare part contains 21.000 rows of venues, but I am going to use 4800 rows of restaurants. 
 
+<p align="center">
+  <img width="800" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/top20rest.png">
+</p>
+
+
 <h2>METHODS</h1>
 
 ![Image](https://i.imgur.com/MGWahfo.png)
@@ -20,8 +25,83 @@ In the schema above, I visualized Data collecting and processing steps. Firstly,
 
 K-Means is creating clusters but not deciding how many clusters will create. So, If I assign to number of clusters randomly, it may cause excessive or insufficient clusters and it will highly cause unmeaningful results. So, I cannot choose number of clusters randomly, for that I am going to Elbow Method to see and decide number of clusters and then I can expect meaningful results.
 
-<h2>EXPECTED RESULTS</h1>
+<p align="center">
+  <img width="800" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/elbowmethod.png">
+</p>
+<p align="center">
+   <b>Elbow Method</b>
+</p>
+
+<p align="center">
+  <img width="800" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/silhoutte.png">
+</p>
+<p align="center">
+   <b>Silhoutte Method</b>
+</p>
+
+
+
+
+<h2>RESULTS</h1>
 In the end I am expecting to see, well clustered restaurants and observe meaningful results over the New York City neighborhoods.
+
+<p align="center">
+  <img width="800" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/maincluster.png">
+</p>
+<p align="center">
+   <b>Main Cluster</b>
+</p>
+
+<p align="center">
+  <img width="600" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/cluster0.png">
+</p>
+<p align="center">
+   <b>Cluster 0</b>
+</p>
+
+<p align="center">
+  <img width="600" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/cluster1.png">
+</p>
+<p align="center">
+   <b>Cluster 1</b>
+</p>
+
+<p align="center">
+  <img width="600" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/cluster2.png">
+</p>
+<p align="center">
+   <b>Cluster 2</b>
+</p>
+
+<p align="center">
+  <img width="600" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/cluster3.png">
+</p>
+<p align="center">
+   <b>Cluster 3</b>
+</p>
+
+<p align="center">
+  <img width="600" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/cluster4.png">
+</p>
+<p align="center">
+   <b>Cluster 4</b>
+</p>
+
+<p align="center">
+  <img width="600" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/cluster5.png">
+</p>
+<p align="center">
+   <b>Cluster 5</b>
+</p>
+
+<p align="center">
+  <img width="600" height="600" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/cluster6.png">
+</p>
+<p align="center">
+   <b>Cluster 6</b>
+</p>
+
+
 
 <h2>LINKS</h1>
 
