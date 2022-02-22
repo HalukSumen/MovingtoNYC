@@ -21,6 +21,13 @@ I am going to use two different data sources, the first one is from New York Uni
 ![Image](https://i.imgur.com/MGWahfo.png)
 In the schema above, I visualized Data collecting and processing steps. Firstly, I will collect data from NYU and Foursquare, but in NYU part I will just use Borough and Neighborhood names and their geolocations, in Foursquare part I will use method to call Venue Name, Category and geolocations. In foursquare part, I will clean Category by restaurants. With number of restaurants, I will create frequency table for each restaurant type. Later creating frequency table, I will merge frequency table with my Data Frame 3. Lastly, I will merge Data Frame 3 and 4, and I will evaluate results which I will support with map visualization.
 
+<p align="center">
+  <img width="800" height="400" src="https://github.com/HalukSumen/MovingtoNYC/blob/main/images/conclusion.png">
+</p>
+<p align="center">
+   <b>Evaluation Chart</b>
+</p>
+
 <h2>EVALUATION</h1>
 
 K-Means is creating clusters but not deciding how many clusters will create. So, If I assign to number of clusters randomly, it may cause excessive or insufficient clusters and it will highly cause unmeaningful results. So, I cannot choose number of clusters randomly, for that I am going to Elbow Method to see and decide number of clusters and then I can expect meaningful results.
@@ -38,9 +45,6 @@ K-Means is creating clusters but not deciding how many clusters will create. So,
 <p align="center">
    <b>Silhoutte Method</b>
 </p>
-
-
-
 
 <h2>RESULTS</h1>
 In the end I am expecting to see, well clustered restaurants and observe meaningful results over the New York City neighborhoods.
